@@ -106,7 +106,7 @@ Output of this stage is shown below:
 ---
 
 6) Lines averaging and Extrapolation:
-It is clear that the lane lines are connected and solid now, however there still exists a low of edges that are not related to lanes.
+It is clear that the lane lines are connected and solid now, however there still exists a lot of edges that are not related to lane lines.
 To help filter out those lines we need to understand their characteristics:
   * A lot of those lines are near horizontal lines, filtering based on line slope would filter those lines.
   * The lane lines seems to be represented by multiple small lines, averaging those lines would filter those out and leave a single line.
